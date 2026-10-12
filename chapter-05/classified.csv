@@ -1,0 +1,11 @@
+id,text,label
+1,My card was charged twice for the same order,billing
+3,Why was I billed after I cancelled my plan?,billing
+5,Please update the credit card on my account,billing
+7,I was charged in the wrong currency,billing
+9,"I cannot log in, the password reset email never arrives",technical
+11,Notifications stopped working after the last update,technical
+13,Export to CSV gives me an empty file,technical
+15,Do you have an office in Delhi?,other
+17,Can I speak to someone about a partnership?,other
+19,I would like to give feedback about your new logo,other
