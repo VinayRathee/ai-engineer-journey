@@ -1,0 +1,5 @@
+Name: ramesh
+Experience: 2years as a developer
+Skills: python,sql,git,etc.
+Education: BCA
+Projects:built a support ticket classifier using the gemini api.$
