@@ -16,12 +16,12 @@ Output in database: the CV text, the summary, the score, the model used and the 
 - Log every model call: model name, input tokens, output tokens and cost.
 - Add pinned dependencies in a new requirements.txt inside chapter-06.
 ## 5. Acceptance criteria
-- [*] Given a valid CV text file, the tool prints a two-line summary on the screen.
-- [*] The tool also prints a score, which is a whole number from 0 to 100.
-- [*] The database row contains the CV text, summary, score, model name and cost.
-- [*] If the file path does not exist, the tool prints a clear error message, does not crash and saves nothing.
-- [*] If the file is empty, the tool prints a clear error message and saves nothing.
-- [*] Tests use a mocked model and never call the real Gemini API.
+- [X] Given a valid CV text file, the tool prints a two-line summary on the screen.
+- [X] The tool also prints a score, which is a whole number from 0 to 100.
+- [X] The database row contains the CV text, summary, score, model name and cost.
+- [X] If the file path does not exist, the tool prints a clear error message, does not crash and saves nothing.
+- [X] If the file is empty, the tool prints a clear error message and saves nothing.
+- [X] Tests use a mocked model and never call the real Gemini API.
 ## 6. Out of scope
 - No web page, graphical interface or frontend. Only the command line.
 - No batch mode. The tool handles one CV file per command.
