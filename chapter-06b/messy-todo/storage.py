@@ -18,4 +18,4 @@ def saveData(lst):
     for item in lst:
         dataToSave.append(item.toDict())
     with open(FILE_PATH, "w") as f:
-        json.dump([], f)
+        json.dump(dataToSave, f)
