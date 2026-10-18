@@ -3,7 +3,7 @@ from .models import TaskItem
 
 class TaskManager:
     def __init__(self):
-        self.tasks = loadData()
+        self.tasks = [TaskItem(item["title"], item["status"]) for item in loadData()]
 
     def addTask(self, t):
         newItem = TaskItem(t)
